@@ -79,11 +79,8 @@ and hope you enjoy my work!.
 <!-- TODO: List of Key Components -->
 
 Home
-├─Jigaboo 1
-├─Jigaboo 2
-├─Jigaboo 3
-├─Jigaboo 4
-└─Jigaboo Gallery
+├─Header Gallery
+└─Footer Gallery
 
 ### Technology
 
@@ -235,4 +232,4 @@ WD-SEATWORK-3-JIGABOO-TX03
 | My Resume Project | A Project to use html to create a resume. | https://cestinalover.github.io/WD-Seatwork-jigaboo-2-TX03/           |
 | My Midterm Exam   | Midterm Grade                             | https://cestinalover.github.io/WD-Midterm-Exam-Damaso-TX03/          |
 | SEATWORK 3        | Schoolwork                                | https://cestinalover.github.io/WD-SEATWORK-3-JIGABOO-TX03/index.html |
-| NONE              | NONE                                      | NONE                                                                 |
+| Hands On 2        | Schoolwork                                | https://cestinalover.github.io/WD-HANDS-ON-2-JIGABOO-TX03/           |
