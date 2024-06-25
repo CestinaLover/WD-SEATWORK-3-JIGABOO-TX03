@@ -101,7 +101,7 @@ ACER PREDATOR HELIOS NEO 16
 3. File Structure to follow
 
 ```
-WD-SEATWORK-3-JIGABOO-TX03
+WD-HANDS-ON-2-JIGABOO-TX03
 ├─ assets
 │  ├─ css
 │  │  └─ style.css
@@ -122,7 +122,7 @@ WD-SEATWORK-3-JIGABOO-TX03
 │  └─ emmet.txt
 ├─ index.html
 ├─ pages
-│  ├─ Jigaboo1
+│  ├─ footer-gallery
 │  │  ├─ assets
 │  │  │  ├─ css
 │  │  │  │  └─ style.css
@@ -137,67 +137,7 @@ WD-SEATWORK-3-JIGABOO-TX03
 │  │  │     ├─ script.js
 │  │  │     └─ scripts.js
 │  │  └─ index.html
-│  ├─ Jigaboo2
-│  │  ├─ assets
-│  │  │  ├─ css
-│  │  │  │  └─ style.css
-│  │  │  ├─ img
-│  │  │  │  ├─ Dousy.jpg
-│  │  │  │  ├─ heatblast.png
-│  │  │  │  ├─ HotJigaboo.jpg
-│  │  │  │  ├─ jemoepeps.png
-│  │  │  │  ├─ nyebe_white.png
-│  │  │  │  └─ snorlax jimbo.png
-│  │  │  └─ js
-│  │  │     ├─ script.js
-│  │  │     └─ scripts.js
-│  │  └─ index.html
-│  ├─ Jigaboo3
-│  │  ├─ assets
-│  │  │  ├─ css
-│  │  │  │  └─ style.css
-│  │  │  ├─ img
-│  │  │  │  ├─ Dousy.jpg
-│  │  │  │  ├─ heatblast.png
-│  │  │  │  ├─ HotJigaboo.jpg
-│  │  │  │  ├─ jemoepeps.png
-│  │  │  │  ├─ nyebe_white.png
-│  │  │  │  └─ snorlax jimbo.png
-│  │  │  └─ js
-│  │  │     ├─ script.js
-│  │  │     └─ scripts.js
-│  │  └─ index.html
-│  ├─ Jigaboo4
-│  │  ├─ assets
-│  │  │  ├─ css
-│  │  │  │  └─ style.css
-│  │  │  ├─ img
-│  │  │  │  ├─ Dousy.jpg
-│  │  │  │  ├─ heatblast.png
-│  │  │  │  ├─ HotJigaboo.jpg
-│  │  │  │  ├─ jemoepeps.png
-│  │  │  │  ├─ nyebe_white.png
-│  │  │  │  └─ snorlax jimbo.png
-│  │  │  └─ js
-│  │  │     ├─ script.js
-│  │  │     └─ scripts.js
-│  │  └─ index.html
-│  ├─ Jigaboo4 copy
-│  │  ├─ assets
-│  │  │  ├─ css
-│  │  │  │  └─ style.css
-│  │  │  ├─ img
-│  │  │  │  ├─ Dousy.jpg
-│  │  │  │  ├─ heatblast.png
-│  │  │  │  ├─ HotJigaboo.jpg
-│  │  │  │  ├─ jemoepeps.png
-│  │  │  │  ├─ nyebe_white.png
-│  │  │  │  └─ snorlax jimbo.png
-│  │  │  └─ js
-│  │  │     ├─ script.js
-│  │  │     └─ scripts.js
-│  │  └─ index.html
-│  └─ JigabooGallery
+│  └─ header-gallery
 │     ├─ assets
 │     │  ├─ css
 │     │  │  └─ style.css
