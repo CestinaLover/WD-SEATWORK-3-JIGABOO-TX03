@@ -78,9 +78,11 @@ and hope you enjoy my work!.
 
 <!-- TODO: List of Key Components -->
 
+```
 Home
 ├─Header Gallery
 └─Footer Gallery
+```
 
 ### Technology
 
