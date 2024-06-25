@@ -182,4 +182,4 @@ WD-SEATWORK-3-JIGABOO-TX03
 | My Midterm Exam   | Midterm Grade                             | https://cestinalover.github.io/WD-Midterm-Exam-Damaso-TX03/ |
 | SEATWORK 3        | Schoolwork                                | https://cestinalover.github.io/WD-SEATWORK-3-JIGABOO-TX03/  |
 | Hands On 2        | Schoolwork                                | https://cestinalover.github.io/WD-HANDS-ON-2-JIGABOO-TX03/  |
-| SEATWORK 3        | Schoolwork                                | https://cestinalover.github.io/WD-SEATWORK-4-JIGABOO-TX03/  |
+| SEATWORK 4        | Schoolwork                                | https://cestinalover.github.io/WD-SEATWORK-4-JIGABOO-TX03/  |
