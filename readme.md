@@ -74,6 +74,7 @@ This is the overview for my shizzle dibbles
 ## Description
 
 This is my Seatwork 3 for my web design class, hope you like it!
+The goal is to make cool animations for Headers and Footers!.
 
 ## Website Instructions:
 
