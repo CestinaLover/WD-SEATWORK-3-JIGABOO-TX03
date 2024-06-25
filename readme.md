@@ -9,11 +9,11 @@
     <img src="./assets/img/jemoepeps.png" alt="Nyebe" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Jigaboo Rangers!!!</h3>
+  <h3 align="center">The Noirs!!</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Welcome to my website fellow jigaboo Rangers!.
+  Welcome to my website fellow Noirs!.
 </div>
 
 <br />
@@ -65,7 +65,7 @@
 
 <!-- TODO: To be changed -->
 
-This is my Seatwork 3 for my web design class, hope you like it!
+This is the overview for my shizzle dibbles
 
 ## Website Instructions:
 
