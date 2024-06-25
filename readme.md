@@ -36,6 +36,10 @@
       <a href="#overview">Overview</a>
       <ol>
       <li>
+      <a href="#Description:">Website Instructions:</a>
+    </li>
+      <ol>
+      <li>
       <a href="#Website-Instructions:">Website Instructions:</a>
     </li>
         <li>
@@ -66,6 +70,10 @@
 <!-- TODO: To be changed -->
 
 This is the overview for my shizzle dibbles
+
+## Description
+
+This is my Seatwork 3 for my web design class, hope you like it!
 
 ## Website Instructions:
 
