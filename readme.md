@@ -39,7 +39,7 @@
       <a href="#Website-Instructions:">Website Instructions:</a>
     </li>
         <li>
-          <a href="#key-components">Key Components</a>
+          <a href="#File-Structure">Key Components</a>
         </li>
         <li>
           <a href="#technology">Technology</a>
@@ -74,7 +74,7 @@ once you are done reading, you can check out the Jigaboo Rangers by cicking the 
 you can also check out the gallery by clicking the gallery button on the top right. Navigate however you wish,
 and hope you enjoy my work!.
 
-### Key Components
+### File Structure
 
 <!-- TODO: List of Key Components -->
 
