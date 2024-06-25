@@ -70,9 +70,7 @@ This is the overview for my shizzle dibbles
 ## Website Instructions:
 
 You will first be sent to the home page where you can read my About Me and other stuff,
-once you are done reading, you can check out the Jigaboo Rangers by cicking the buttons on the top right,
-you can also check out the gallery by clicking the gallery button on the top right. Navigate however you wish,
-and hope you enjoy my work!.
+once you are done reading, you can check out The Header and Footer Anims by cicking the buttons on the top right, Navigate however you wish, and hope you enjoy my work!.
 
 ### File Structure
 
@@ -101,7 +99,7 @@ ACER PREDATOR HELIOS NEO 16
 3. File Structure to follow
 
 ```
-WD-HANDS-ON-2-JIGABOO-TX03
+WD-SEATWORK-3-JIGABOO-TX03
 ├─ assets
 │  ├─ css
 │  │  └─ style.css
