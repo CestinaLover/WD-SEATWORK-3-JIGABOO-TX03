@@ -113,6 +113,7 @@ WD-SEATWORK-3-JIGABOO-TX03
 │  ├─ css
 │  │  └─ style.css
 │  ├─ img
+│  │  ├─ Chief.png
 │  │  ├─ DarkSky.jpg
 │  │  ├─ Dousy.jpg
 │  │  ├─ heatblast.png
