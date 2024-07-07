@@ -2300,47 +2300,46 @@ static-button9:active {
   transition: box-shadow 0.2s ease-in;
 }
 
-#static-primary_nav_wrap
-{
-	margin-top:15px
+#static-primary_nav_wrap {
+  margin-top: 15px;
 }
 
-#static-primary_nav_wrap ul
-{
-	list-style:none;
-	position:relative;
-	float:left;
-	margin:0;
-	padding:0
+#static-primary_nav_wrap ul {
+  list-style: none;
+  position: relative;
+  float: left;
+  margin: 0;
+  padding: 0;
 }
 
-#static-primary_nav_wrap ul a
-{
-	display:block;
-	color:#ffffff;
-	text-decoration:none;
-	font-weight:700;
-	font-size:12px;
-	line-height:32px;
-	padding:0 15px;
-	font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif
+#static-primary_nav_wrap ul a {
+  display: block;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 32px;
+  padding: 0 15px;
+  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-#static-primary_nav_wrap ul li
-{
-	position:relative;
-	float:left;
-	margin:0;
-	padding:0
+#static-primary_nav_wrap ul li {
+  position: relative;
+  float: left;
+  margin: 0;
+  padding: 0;
 }
 
-#static-primary_nav_wrap ul li.static-current-menu-item
-{
-	background: rgb(138, 138, 138)
+#static-primary_nav_wrap ul li.static-current-menu-item {
+  background: rgb(138, 138, 138);
 }
 
-
-
+/* Remove hover effects */
+#static-primary_nav_wrap ul li a:hover {
+  background: none;
+  color: #ffffff; /* or the desired color without glow */
+  text-decoration: none;
+}
 
   /* === removing default button style ===*/
   .static-lover {
