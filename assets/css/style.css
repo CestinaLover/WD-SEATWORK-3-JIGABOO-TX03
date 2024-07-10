@@ -1720,15 +1720,14 @@ libby-button {
     padding: 15px 30px;
     border: 2px solid #000000;
     text-transform: uppercase;
-    color: #000000;
+    color: #ffffff;
     text-decoration: none;
     font-weight: 600;
     font-size: 20px;
-    transition: 0.3s;
+    transition: none;
+    background-color: transparent;
   }
   
-
-
   .static-jim-btn2 span {
     position: relative;
     z-index: 3;
