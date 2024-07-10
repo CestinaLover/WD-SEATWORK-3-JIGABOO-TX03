@@ -175,7 +175,7 @@ WD-SEATWORK-3-JIGABOO-TX03
 | Title   | Purpose                               | Link                                     |
 | ------- | ------------------------------------- | ---------------------------------------- |
 | UIVERSE | A site containing UI elements for css | https://uiverse.io/buttons?orderBy=views |
-| NONE    | NONE                                  | NONE                                     |
+| CODEPEN | A site for CSS codes                  | https://codepen.io/trending              |
 | NONE    | NONE                                  | NONE                                     |
 | NONE    | NONE                                  | NONE                                     |
 
