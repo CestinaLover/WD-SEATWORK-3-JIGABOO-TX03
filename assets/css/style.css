@@ -118,7 +118,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
-    background: url("/WD-SEATWORK-3-JIGABOO-TX03/assets/img/HotJigaboo.jpg") no-repeat center center fixed;
+    background: url("assets/img/HotJigaboo.jpg") no-repeat center center fixed;
     background-size: cover;
     color: #fff;
 }
@@ -196,7 +196,7 @@ button1::after {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: var(--glow-spread-color);
+    
     filter: blur(2em);
     opacity: .7;
     transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
@@ -245,7 +245,7 @@ button2::after {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: var(--glow-spread-color);
+    
     filter: blur(2em);
     opacity: .7;
     transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
@@ -294,7 +294,7 @@ button3::after {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: var(--glow-spread-color);
+    
     filter: blur(2em);
     opacity: .7;
     transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
@@ -343,7 +343,7 @@ button4::after {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: var(--glow-spread-color);
+    
     filter: blur(2em);
     opacity: .7;
     transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
@@ -392,7 +392,7 @@ button5::after {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: var(--glow-spread-color);
+    
     filter: blur(2em);
     opacity: .7;
     transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
@@ -441,7 +441,7 @@ button6::after {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: var(--glow-spread-color);
+    
     filter: blur(2em);
     opacity: .7;
     transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
@@ -1875,10 +1875,10 @@ libby-button {
 
 /* button styling */
 static-button1 {
-  --glow-color: rgb(199, 73, 15);
-  --glow-spread-color: rgba(255, 102, 0, 0.753);
-  --enhanced-glow-color: rgb(199, 73, 15);
-  --btn-color: rgb(255, 102, 0, 0.753);
+  --glow-color: rgb(0, 0, 0);
+  --glow-spread-color: rgb(255, 255, 255);
+  --enhanced-glow-color: rgb(0, 0, 0);
+  --btn-color: rgb(73, 73, 73);
   border: .25em solid var(--glow-color);
   padding: 1em 3em;
   color: var(--glow-color);
@@ -1903,17 +1903,12 @@ static-button1 {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: var(--glow-spread-color);
+  
   filter: blur(2em);
   opacity: .7;
   transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
 }
 
-static-button1:active {
-  box-shadow: 0 0 0.6em .25em var(--glow-color),
-         0 0 2.5em 2em var(--glow-spread-color),
-         inset 0 0 .5em .25em var(--glow-color);
-}
 
 
 static-button2 {
@@ -1945,17 +1940,12 @@ static-button2 {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: var(--glow-spread-color);
+    
     filter: blur(2em);
     opacity: .7;
     transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
 }
 
-static-button2:active {
-    box-shadow: 0 0 0.6em .25em var(--glow-color),
-           0 0 2.5em 2em var(--glow-spread-color),
-           inset 0 0 .5em .25em var(--glow-color);
-}
 
 static-button3 {
     --glow-color: rgb(255, 255, 255, 0.753);
@@ -1986,17 +1976,12 @@ static-button3 {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: var(--glow-spread-color);
+    
     filter: blur(2em);
     opacity: .7;
     transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
 }
 
-static-button3:active {
-    box-shadow: 0 0 0.6em .25em var(--glow-color),
-           0 0 2.5em 2em var(--glow-spread-color),
-           inset 0 0 .5em .25em var(--glow-color);
-}
 
 static-button4 {
     --glow-color: rgb(0, 0, 0, 0.753);
@@ -2027,16 +2012,10 @@ static-button4 {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: var(--glow-spread-color);
+    
     filter: blur(2em);
     opacity: .7;
     transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
-}
-
-static-button4:active {
-    box-shadow: 0 0 0.6em .25em var(--glow-color),
-           0 0 2.5em 2em var(--glow-spread-color),
-           inset 0 0 .5em .25em var(--glow-color);
 }
 
 static-button5 {
@@ -2068,17 +2047,12 @@ static-button5 {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: var(--glow-spread-color);
+    
     filter: blur(2em);
     opacity: .7;
     transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
 }
 
-static-button5:active {
-    box-shadow: 0 0 0.6em .25em var(--glow-color),
-           0 0 2.5em 2em var(--glow-spread-color),
-           inset 0 0 .5em .25em var(--glow-color);
-}
 
 static-button6 {
     --glow-color: rgb(199, 73, 15);
@@ -2109,16 +2083,10 @@ static-button6 {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: var(--glow-spread-color);
+    
     filter: blur(2em);
     opacity: .7;
     transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
-}
-
-static-button6:active {
-    box-shadow: 0 0 0.6em .25em var(--glow-color),
-           0 0 2.5em 2em var(--glow-spread-color),
-           inset 0 0 .5em .25em var(--glow-color);
 }
 
 static-button7 {
@@ -2174,13 +2142,6 @@ static-button7::before {
   }
 }
 
-static-button7:active {
-  box-shadow: 0 0 0 0 transparent;
-  -webkit-transition: box-shadow 0.2s ease-in;
-  -moz-transition: box-shadow 0.2s ease-in;
-  transition: box-shadow 0.2s ease-in;
-}
-
 static-button8 {
   position: relative;
   padding: 10px 20px;
@@ -2233,12 +2194,6 @@ static-button8::before {
   }
 }
 
-static-button8:active {
-  box-shadow: 0 0 0 0 transparent;
-  -webkit-transition: box-shadow 0.2s ease-in;
-  -moz-transition: box-shadow 0.2s ease-in;
-  transition: box-shadow 0.2s ease-in;
-}
 
 
 static-button9 {
@@ -2293,53 +2248,48 @@ static-button9::before {
   }
 }
 
-static-button9:active {
-  box-shadow: 0 0 0 0 transparent;
-  -webkit-transition: box-shadow 0.2s ease-in;
-  -moz-transition: box-shadow 0.2s ease-in;
-  transition: box-shadow 0.2s ease-in;
+
+#static-primary_nav_wrap
+{
+	margin-top:15px
 }
 
-#static-primary_nav_wrap {
-  margin-top: 15px;
+#static-primary_nav_wrap ul
+{
+	list-style:none;
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0
 }
 
-#static-primary_nav_wrap ul {
-  list-style: none;
-  position: relative;
-  float: left;
-  margin: 0;
-  padding: 0;
+#static-primary_nav_wrap ul a
+{
+	display:block;
+	color:#ffffff;
+	text-decoration:none;
+	font-weight:700;
+	font-size:12px;
+	line-height:32px;
+	padding:0 15px;
+	font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif
 }
 
-#static-primary_nav_wrap ul a {
-  display: block;
-  color: #ffffff;
-  text-decoration: none;
-  font-weight: 700;
-  font-size: 12px;
-  line-height: 32px;
-  padding: 0 15px;
-  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+#static-primary_nav_wrap ul li
+{
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0
 }
 
-#static-primary_nav_wrap ul li {
-  position: relative;
-  float: left;
-  margin: 0;
-  padding: 0;
+#static-primary_nav_wrap ul li.static-current-menu-item
+{
+	background: rgb(138, 138, 138)
 }
 
-#static-primary_nav_wrap ul li.static-current-menu-item {
-  background: rgb(138, 138, 138);
-}
 
-/* Remove hover effects */
-#static-primary_nav_wrap ul li a:hover {
-  background: none;
-  color: #ffffff; /* or the desired color without glow */
-  text-decoration: none;
-}
+
 
   /* === removing default button style ===*/
   .static-lover {
@@ -2624,3 +2574,519 @@ static-button9:active {
  /* Unicode character for filled star */
 }
 
+/*static kekw*/
+.static-kekw-container {
+  height: 100vh;
+  width: 100vw;
+  flex-direction: row;
+  background: url("/WD-SEATWORK-3-JIGABOO-TX03/assets/img/NightSky.jpg") no-repeat center center fixed;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  background-size: cover;
+}
+
+
+.static-kekw-card {
+  height: 379px;
+  width: 300px;
+  background: grey;
+  border-radius: 10px;
+  transition: background 0.8s;
+  overflow: hidden;
+  background: black;
+  box-shadow: 0 70px 63px -60px #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.static-kekw-card0 {
+  background: url('/WD-SEATWORK-3-JIGABOO-TX03/assets/img/youngWoo.jpg') center center no-repeat;
+  background-size: 300px;
+}
+
+.static-kekw-card1 {
+  background: url('/WD-SEATWORK-3-JIGABOO-TX03/assets/img/TeenWoo.jpg') center center no-repeat;
+  background-size: 300px;
+}
+
+
+.static-kekw-card2 {
+  background: url('/WD-SEATWORK-3-JIGABOO-TX03/assets/img/AdultWoo.jpg') center center no-repeat;
+  background-size: 300px;
+}
+
+a:link {
+  color: white; /* Unvisited link */
+}
+a:visited {
+  color: white; /* Visited link */
+}
+a:hover {
+  color: white; /* Mouse over link */
+}
+a:active {
+  color: white; /* Selected link */
+}
+
+.sexy-button-container {
+  display: flex;
+  gap: 10px; /* Space between buttons */
+}
+
+.sexy-button {
+  --glow-color: rgb(255, 255, 255);
+  --glow-spread-color: rgb(0, 0, 0);
+  --enhanced-glow-color: rgb(0, 0, 0);
+  --btn-color: rgb(0, 0, 0);
+  border: .25em solid var(--glow-color);
+  padding: 1em 3em;
+  color: var(--glow-color);
+  font-size: 10px;
+  font-weight: bold;
+  background-color: var(--btn-color);
+  border-radius: 1em;
+  outline: none;
+  box-shadow: 0 0 1em .25em var(--glow-color),
+         0 0 4em 1em var(--glow-spread-color),
+         inset 0 0 .75em .25em var(--glow-color);
+  text-shadow: 0 0 .5em var(--glow-color);
+  position: relative;
+  transition: all 0.3s;
+  display: inline-block;
+}
+
+.sexy-button::after {
+  pointer-events: none;
+  content: "";
+  position: absolute;
+  top: 120%;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  
+  filter: blur(2em);
+  opacity: .7;
+  transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
+}
+
+.sexy-button:hover {
+  color: var(--btn-color);
+  background-color: var(--glow-color);
+  box-shadow: 0 0 1em .25em var(--glow-color),
+         0 0 4em 2em var(--glow-spread-color),
+         inset 0 0 .75em .25em var(--glow-color);
+}
+
+.sexy-button:active {
+  box-shadow: 0 0 0.6em .25em var(--glow-color),
+  0 0 2.5em 2em var(--glow-spread-color),
+  inset 0 0 .5em .25em var(--glow-color);
+}
+
+ /*Valorant shizz*/
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+hero-valorant-body {
+  font-family: 'Arial', sans-serif;
+  background: url('/WD-SEATWORK-3-JIGABOO-TX03/assets/img/Volcano.png') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.hero-valorant-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.hero-valorant-image-content {
+  position: relative;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-valorant-image-content img {
+  width: 80%;
+  max-width: 400px;
+}
+
+.hero-valorant-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 80%;
+  max-width: 400px;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.hero-valorant-text-content {
+  flex: 1;
+  padding-left: 20px; /* Adjust space between image and text */
+}
+
+.hero-valorant-text-content h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero-valorant-text-content p {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.hero-valorant-button {
+  border: none;
+  position: relative;
+  width: 200px;
+  height: 73px;
+  padding: 0;
+  z-index: 2;
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='868' width='2500' viewBox='0 0 726 252.17'%3E%3Cpath d='M483.92 0S481.38 24.71 466 40.11c-11.74 11.74-24.09 12.66-40.26 15.07-9.42 1.41-29.7 3.77-34.81-.79-2.37-2.11-3-21-3.22-27.62-.21-6.92-1.36-16.52-2.82-18-.75 3.06-2.49 11.53-3.09 13.61S378.49 34.3 378 36a85.13 85.13 0 0 0-30.09 0c-.46-1.67-3.17-11.48-3.77-13.56s-2.34-10.55-3.09-13.61c-1.45 1.45-2.61 11.05-2.82 18-.21 6.67-.84 25.51-3.22 27.62-5.11 4.56-25.38 2.2-34.8.79-16.16-2.47-28.51-3.39-40.21-15.13C244.57 24.71 242 0 242 0H0s69.52 22.74 97.52 68.59c16.56 27.11 14.14 58.49 9.92 74.73C170 140 221.46 140 273 158.57c69.23 24.93 83.2 76.19 90 93.6 6.77-17.41 20.75-68.67 90-93.6 51.54-18.56 103-18.59 165.56-15.25-4.21-16.24-6.63-47.62 9.93-74.73C656.43 22.74 726 0 726 0z'/%3E%3C/svg%3E") no-repeat 50% 50%;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='868' width='2500' viewBox='0 0 726 252.17'%3E%3Cpath d='M483.92 0S481.38 24.71 466 40.11c-11.74 11.74-24.09 12.66-40.26 15.07-9.42 1.41-29.7 3.77-34.81-.79-2.37-2.11-3-21-3.22-27.62-.21-6.92-1.36-16.52-2.82-18-.75 3.06-2.49 11.53-3.09 13.61S378.49 34.3 378 36a85.13 85.13 0 0 0-30.09 0c-.46-1.67-3.17-11.48-3.77-13.56s-2.34-10.55-3.09-13.61c-1.45 1.45-2.61 11.05-2.82 18-.21 6.67-.84 25.51-3.22 27.62-5.11 4.56-25.38 2.2-34.8.79-16.16-2.47-28.51-3.39-40.21-15.13C244.57 24.71 242 0 242 0H0s69.52 22.74 97.52 68.59c16.56 27.11 14.14 58.49 9.92 74.73C170 140 221.46 140 273 158.57c69.23 24.93 83.2 76.19 90 93.6 6.77-17.41 20.75-68.67 90-93.6 51.54-18.56 103-18.59 165.56-15.25-4.21-16.24-6.63-47.62 9.93-74.73C656.43 22.74 726 0 726 0z'/%3E%3C/svg%3E") no-repeat 50% 50%;
+  -webkit-mask-size: 100%;
+  cursor: pointer;
+  background-color: transparent;
+  transform: translateY(8px);
+}
+
+.hero-valorant-button:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: 0px 0 0 0 white;
+  transition: all 2s ease;
+}
+
+.hero-valorant-button:hover:after {
+  box-shadow: 0px -13px 56px 12px #ffffffa6;
+}
+
+.hero-valorant-button span {
+  position: absolute;
+  width: 100%;
+  font-size: 15px;
+  font-weight: 100;
+  left: 50%;
+  top: 39%;
+  letter-spacing: 3px;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  color: black;
+  transition: all 2s ease;
+}
+
+.hero-valorant-button:hover span {
+  color: white;
+}
+
+.hero-valorant-button:before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 100%;
+  background-color: black;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 1s ease;
+}
+
+.hero-valorant-button:hover:before {
+  width: 100%;
+}
+
+/*static kekw*/
+.card-shizz-container {
+  height: 100vh;
+  width: 100vw;
+  flex-direction: row;
+  background: url("/WD-SEATWORK-3-JIGABOO-TX03/assets/img/NOIR.jpg") no-repeat center center fixed;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  background-size: cover;
+}
+
+ /*Valorant shizz*/
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+sukuna-body {
+  font-family: 'Arial', sans-serif;
+  background: url('/WD-SEATWORK-3-JIGABOO-TX03/assets/img/TORII.jpg') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.sukuna-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.sukuna-image-content {
+  position: relative;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sukuna-image-content img {
+  width: 80%;
+  max-width: 400px;
+}
+
+.sukuna-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 80%;
+  max-width: 400px;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.sukuna-text-content {
+  flex: 1;
+  padding-left: 20px; /* Adjust space between image and text */
+}
+
+.sukuna-text-content h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.sukuna-text-content p {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.sukuna-button {
+  border: none;
+  position: relative;
+  width: 200px;
+  height: 73px;
+  padding: 0;
+  z-index: 2;
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='868' width='2500' viewBox='0 0 726 252.17'%3E%3Cpath d='M483.92 0S481.38 24.71 466 40.11c-11.74 11.74-24.09 12.66-40.26 15.07-9.42 1.41-29.7 3.77-34.81-.79-2.37-2.11-3-21-3.22-27.62-.21-6.92-1.36-16.52-2.82-18-.75 3.06-2.49 11.53-3.09 13.61S378.49 34.3 378 36a85.13 85.13 0 0 0-30.09 0c-.46-1.67-3.17-11.48-3.77-13.56s-2.34-10.55-3.09-13.61c-1.45 1.45-2.61 11.05-2.82 18-.21 6.67-.84 25.51-3.22 27.62-5.11 4.56-25.38 2.2-34.8.79-16.16-2.47-28.51-3.39-40.21-15.13C244.57 24.71 242 0 242 0H0s69.52 22.74 97.52 68.59c16.56 27.11 14.14 58.49 9.92 74.73C170 140 221.46 140 273 158.57c69.23 24.93 83.2 76.19 90 93.6 6.77-17.41 20.75-68.67 90-93.6 51.54-18.56 103-18.59 165.56-15.25-4.21-16.24-6.63-47.62 9.93-74.73C656.43 22.74 726 0 726 0z'/%3E%3C/svg%3E") no-repeat 50% 50%;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='868' width='2500' viewBox='0 0 726 252.17'%3E%3Cpath d='M483.92 0S481.38 24.71 466 40.11c-11.74 11.74-24.09 12.66-40.26 15.07-9.42 1.41-29.7 3.77-34.81-.79-2.37-2.11-3-21-3.22-27.62-.21-6.92-1.36-16.52-2.82-18-.75 3.06-2.49 11.53-3.09 13.61S378.49 34.3 378 36a85.13 85.13 0 0 0-30.09 0c-.46-1.67-3.17-11.48-3.77-13.56s-2.34-10.55-3.09-13.61c-1.45 1.45-2.61 11.05-2.82 18-.21 6.67-.84 25.51-3.22 27.62-5.11 4.56-25.38 2.2-34.8.79-16.16-2.47-28.51-3.39-40.21-15.13C244.57 24.71 242 0 242 0H0s69.52 22.74 97.52 68.59c16.56 27.11 14.14 58.49 9.92 74.73C170 140 221.46 140 273 158.57c69.23 24.93 83.2 76.19 90 93.6 6.77-17.41 20.75-68.67 90-93.6 51.54-18.56 103-18.59 165.56-15.25-4.21-16.24-6.63-47.62 9.93-74.73C656.43 22.74 726 0 726 0z'/%3E%3C/svg%3E") no-repeat 50% 50%;
+  -webkit-mask-size: 100%;
+  cursor: pointer;
+  background-color: transparent;
+  transform: translateY(8px);
+}
+
+.sukuna-button:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: 0px 0 0 0 white;
+  transition: all 2s ease;
+}
+
+.sukuna-button:hover:after {
+  box-shadow: 0px -13px 56px 12px #ffffffa6;
+}
+
+.sukuna-button span {
+  position: absolute;
+  width: 100%;
+  font-size: 15px;
+  font-weight: 100;
+  left: 50%;
+  top: 39%;
+  letter-spacing: 3px;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  color: black;
+  transition: all 2s ease;
+}
+
+.sukuna-button:hover span {
+  color: white;
+}
+
+.sukuna-button:before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 100%;
+  background-color: black;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 1s ease;
+}
+
+.sukuna-button:hover:before {
+  width: 100%;
+}
+
+ /*Valorant shizz*/
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+gojo-body {
+  font-family: 'Arial', sans-serif;
+  background: url('/WD-SEATWORK-3-JIGABOO-TX03/assets/img/KAISEN.jpg') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.gojo-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.gojo-image-content {
+  position: relative;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gojo-image-content img {
+  width: 80%;
+  max-width: 400px;
+}
+
+.gojo-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 80%;
+  max-width: 400px;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.gojo-text-content {
+  flex: 1;
+  padding-left: 20px; /* Adjust space between image and text */
+}
+
+.gojo-text-content h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.gojo-text-content p {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.gojo-button {
+  border: none;
+  position: relative;
+  width: 200px;
+  height: 73px;
+  padding: 0;
+  z-index: 2;
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='868' width='2500' viewBox='0 0 726 252.17'%3E%3Cpath d='M483.92 0S481.38 24.71 466 40.11c-11.74 11.74-24.09 12.66-40.26 15.07-9.42 1.41-29.7 3.77-34.81-.79-2.37-2.11-3-21-3.22-27.62-.21-6.92-1.36-16.52-2.82-18-.75 3.06-2.49 11.53-3.09 13.61S378.49 34.3 378 36a85.13 85.13 0 0 0-30.09 0c-.46-1.67-3.17-11.48-3.77-13.56s-2.34-10.55-3.09-13.61c-1.45 1.45-2.61 11.05-2.82 18-.21 6.67-.84 25.51-3.22 27.62-5.11 4.56-25.38 2.2-34.8.79-16.16-2.47-28.51-3.39-40.21-15.13C244.57 24.71 242 0 242 0H0s69.52 22.74 97.52 68.59c16.56 27.11 14.14 58.49 9.92 74.73C170 140 221.46 140 273 158.57c69.23 24.93 83.2 76.19 90 93.6 6.77-17.41 20.75-68.67 90-93.6 51.54-18.56 103-18.59 165.56-15.25-4.21-16.24-6.63-47.62 9.93-74.73C656.43 22.74 726 0 726 0z'/%3E%3C/svg%3E") no-repeat 50% 50%;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='868' width='2500' viewBox='0 0 726 252.17'%3E%3Cpath d='M483.92 0S481.38 24.71 466 40.11c-11.74 11.74-24.09 12.66-40.26 15.07-9.42 1.41-29.7 3.77-34.81-.79-2.37-2.11-3-21-3.22-27.62-.21-6.92-1.36-16.52-2.82-18-.75 3.06-2.49 11.53-3.09 13.61S378.49 34.3 378 36a85.13 85.13 0 0 0-30.09 0c-.46-1.67-3.17-11.48-3.77-13.56s-2.34-10.55-3.09-13.61c-1.45 1.45-2.61 11.05-2.82 18-.21 6.67-.84 25.51-3.22 27.62-5.11 4.56-25.38 2.2-34.8.79-16.16-2.47-28.51-3.39-40.21-15.13C244.57 24.71 242 0 242 0H0s69.52 22.74 97.52 68.59c16.56 27.11 14.14 58.49 9.92 74.73C170 140 221.46 140 273 158.57c69.23 24.93 83.2 76.19 90 93.6 6.77-17.41 20.75-68.67 90-93.6 51.54-18.56 103-18.59 165.56-15.25-4.21-16.24-6.63-47.62 9.93-74.73C656.43 22.74 726 0 726 0z'/%3E%3C/svg%3E") no-repeat 50% 50%;
+  -webkit-mask-size: 100%;
+  cursor: pointer;
+  background-color: transparent;
+  transform: translateY(8px);
+}
+
+.gojo-button:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: 0px 0 0 0 white;
+  transition: all 2s ease;
+}
+
+.gojo-button:hover:after {
+  box-shadow: 0px -13px 56px 12px #ffffffa6;
+}
+
+.gojo-button span {
+  position: absolute;
+  width: 100%;
+  font-size: 15px;
+  font-weight: 100;
+  left: 50%;
+  top: 39%;
+  letter-spacing: 3px;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  color: black;
+  transition: all 2s ease;
+}
+
+.gojo-button:hover span {
+  color: white;
+}
+
+.gojo-button:before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 100%;
+  background-color: black;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 1s ease;
+}
+
+.gojo-button:hover:before {
+  width: 100%;
+}
