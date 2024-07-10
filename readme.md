@@ -113,16 +113,21 @@ WD-SEATWORK-3-JIGABOO-TX03
 │  ├─ css
 │  │  └─ style.css
 │  ├─ img
+│  │  ├─ Chief.png
 │  │  ├─ DarkSky.jpg
 │  │  ├─ Dousy.jpg
+│  │  ├─ GOJO.png
 │  │  ├─ heatblast.png
 │  │  ├─ HotJigaboo.jpg
 │  │  ├─ jemoepeps.png
+│  │  ├─ KAISEN.jpg
 │  │  ├─ NightSky.jpg
 │  │  ├─ nyebe_white.png
 │  │  ├─ snorlax jimbo.png
 │  │  ├─ Star Wars Galaxy Background.jpg
-│  │  └─ SungJinWoo.png
+│  │  ├─ SUKUNA.png
+│  │  ├─ SungJinWoo.png
+│  │  └─ TORII.jpg
 │  └─ js
 │     └─ script.js
 ├─ doc
